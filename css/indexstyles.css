@@ -1,0 +1,57 @@
+body {
+
+    background-color: rgb(58, 145, 113);
+}
+
+h1 {
+
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height:auto;
+    margin-bottom: 20px;
+  }
+
+ul {
+
+    display: table;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+li {
+
+    margin-bottom: 30px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: darkgray;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
