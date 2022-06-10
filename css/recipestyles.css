@@ -1,0 +1,86 @@
+body {
+
+    background-color: rgb(58, 145, 113);
+}
+
+h1 {
+
+    color: white;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+
+    color: white;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.header-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height:auto;
+    margin-bottom: 20px;
+  }
+
+ul {
+
+    display: table;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+ol {
+
+    display: table;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+li {
+
+    margin-bottom: 30px;
+}
+
+a {
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: darkgray;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
